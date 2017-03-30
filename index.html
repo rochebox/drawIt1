@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to the drawing program</title>
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/mystyles.css">
+</head>
+<body>
+	<h1 id="bigHeading">Drawing It Now!</h1>
+	<div id="drawingMenu">
+		<button class="menuButton" onclick="exportDrawing()">
+			Save the Drawing!
+		</button>
+		<button class="menuButton" onclick="clearCanvas()">
+			New Drawing(Clear Canvas)
+		</button>
+	</div>
+
+	<canvas id="drawingCanvas" width="850" height="500"></canvas>
+
+	<button onclick="exportDrawing()">Save the Drawing!</button>
+
+
+
+
+	<!-- ********  scripts  -->
+	<!--script type="text/javascript" src="js/drawingscript.js"></script-->
+	<script type="text/javascript" src="js/drawing2.js"></script>
+</body>
+</html>
